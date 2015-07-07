@@ -1,5 +1,5 @@
 # webegg
-## Flask project template with "blueprints"
+## Template to initiate a flask project
 
 --------------------
 
