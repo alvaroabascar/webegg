@@ -1,5 +1,5 @@
 # webegg
-## Template to initiate a flask project
+## Simple template to quickly start a flask project
 
 --------------------
 
