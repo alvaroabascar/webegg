@@ -17,4 +17,4 @@ pip install -r requirements.txt
 source venv/bin/activate
 python run.py
 ```
-Now point your browser to http://localhost:5000
+Now point your browser to **http://localhost:5000**
