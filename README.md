@@ -28,4 +28,6 @@ Now point your browser to **http://localhost:5000**
 
 2. [Modular Applications With Blueprints](http://flask.pocoo.org/docs/0.10/blueprints/)
 
-3. [An easier way to build a webapp, using appengine](http://github.com/merqurio/kolore/)
+By @merqurio:
+3. [An easier way to build a webapp, using appengine](https://github.com/merqurio/flask-on-appengine)
+4. [Appengine + custom CMS](https://github.com/merqurio/kolore)
