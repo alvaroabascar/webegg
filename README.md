@@ -25,5 +25,7 @@ Now point your browser to **http://localhost:5000**
 ### Resources
 
 [Flask framework](http://flask.pocoo.org/)
+
 [Modular Applications With Blueprints](http://flask.pocoo.org/docs/0.10/blueprints/)
+
 [An easier way to build a webapp, using appengine](http://github.com/merqurio/kolore/)
