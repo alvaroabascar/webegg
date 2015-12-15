@@ -9,7 +9,7 @@ from .other_app.views import other_app
 
 # Start Flask
 # -------------------------------------------------------------------
-app = Flask(__name__)
+app = Flask(__name__, static_folder='main_app/static')
 
 # Register Blueprints
 # -------------------------------------------------------------------
