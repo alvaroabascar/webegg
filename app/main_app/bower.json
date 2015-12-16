@@ -1,0 +1,19 @@
+{
+  "name": "webegg",
+  "version": "0.0.1",
+  "homepage": "https://github.com/alvaroabascar/webegg",
+  "description": "A template to create flask webapps which can run on appengine",
+  "main": "",
+  "moduleType": [],
+  "authors": [
+    "<alvaroabascar@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
