@@ -1,0 +1,21 @@
+{
+  "name": "webegg",
+  "version": "0.0.1",
+  "description": "Template to create flask webapps that can run on appengine",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvaroabascar/webegg.git"
+  },
+  "author": "alvaroabascar@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvaroabascar/webegg/issues"
+  },
+  "homepage": "https://github.com/alvaroabascar/webegg#readme",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  }
+}
