@@ -1,35 +1,39 @@
-# webegg
-## Simple template to quickly start a Flask project
+# Webegg
 
 --------------------
 
 ### Basic setup
 ```{bash}
-git clone http://github.com/alvaroabascar/webegg
-cd webegg
+cd swegg
 virtualenv --python=python3 venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
 
 ### Local server for development
+
+#### Option a) Flask server
 ```{bash}
 source venv/bin/activate
 python run.py
 ```
-Now point your browser to **http://localhost:5000**
+
+#### Option b) Appengine local server
+```{bash}
+gcloud preview app run app.y
+```
+
+or
+
+```{bash}
+dev_appserver .
+```
+Now point your browser to **http://localhost:8080**
 
 ### Deployment
-Coming soon...
+Note that you must have created your project at [https://console.google.com](https://console.google.com).
 
-----------------------
-
-### Resources
-
-1. [Flask framework](http://flask.pocoo.org/)
-
-2. [Modular Applications With Blueprints](http://flask.pocoo.org/docs/0.10/blueprints/)
-
-3. [An easier way to build a webapp, using appengine](https://github.com/merqurio/flask-on-appengine) (@merqurio)
-
-4. [Appengine + custom CMS](https://github.com/merqurio/kolore) (@merqurio)
+```{bash}
+gcloud config set project project-name
+gcloud preview app deploy app.y
+```
