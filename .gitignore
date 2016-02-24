@@ -3,3 +3,5 @@ venv
 **/*pyc
 lib
 **/**/node_modules
+app/main_app/static/dist/
+app/main_app/static/bower_components
