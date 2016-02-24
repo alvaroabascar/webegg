@@ -1,1 +1,1 @@
-var mi_variable_lalalalala = 23;
+var random_function = function (a, b) { return 23; }
